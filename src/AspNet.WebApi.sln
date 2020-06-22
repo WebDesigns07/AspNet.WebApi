@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AspNet.WebApi", "AspNet.WebApi\AspNet.WebApi.vbproj", "{08ED890C-9287-4265-B663-61AA5B0ADF24}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.WebApi", "AspNet.WebApi\AspNet.WebApi.csproj", "{50090371-A686-4E0E-B7BE-77A1334A2CC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{08ED890C-9287-4265-B663-61AA5B0ADF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08ED890C-9287-4265-B663-61AA5B0ADF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08ED890C-9287-4265-B663-61AA5B0ADF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08ED890C-9287-4265-B663-61AA5B0ADF24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {183F9C87-9900-4014-98C1-9759BF447405}
+		SolutionGuid = {A4CAB4B7-51F3-498C-8370-83FDB9400EA8}
 	EndGlobalSection
 EndGlobal
