@@ -5,6 +5,14 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.WebApi", "AspNet.WebApi\AspNet.WebApi.csproj", "{50090371-A686-4E0E-B7BE-77A1334A2CC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Auth", "AspNet.Auth\AspNet.Auth.csproj", "{88BB89AD-9FCC-4A7F-9C58-94748B656C28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Auth.Tests", "AspNet.Auth.Tests\AspNet.Auth.Tests.csproj", "{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{19889D6C-4ABB-48E6-87EB-1A13A40AACB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{ACFBF6A7-BE6E-4B8A-828A-7631D0F82C9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,22 @@ Global
 		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50090371-A686-4E0E-B7BE-77A1334A2CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88BB89AD-9FCC-4A7F-9C58-94748B656C28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88BB89AD-9FCC-4A7F-9C58-94748B656C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88BB89AD-9FCC-4A7F-9C58-94748B656C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88BB89AD-9FCC-4A7F-9C58-94748B656C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50090371-A686-4E0E-B7BE-77A1334A2CC2} = {ACFBF6A7-BE6E-4B8A-828A-7631D0F82C9F}
+		{88BB89AD-9FCC-4A7F-9C58-94748B656C28} = {19889D6C-4ABB-48E6-87EB-1A13A40AACB8}
+		{71198E1F-A6DA-4E82-8FE7-EEE52CEEF17A} = {19889D6C-4ABB-48E6-87EB-1A13A40AACB8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A4CAB4B7-51F3-498C-8370-83FDB9400EA8}
